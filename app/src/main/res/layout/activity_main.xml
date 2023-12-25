@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_centerInParent="true"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginTop="50dp"
+    android:backgroundTint="#B1AFAF"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="10sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="8sp"
+        android:text="EduGaon"
+        android:textColor="#FF6F00"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/shortBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="8sp"
+         android:src="@drawable/what"
+        android:backgroundTint="#01579B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/pro"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shortBtn"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="158sp"
+        android:textSize="18sp" />
+</androidx.cardview.widget.CardView>
